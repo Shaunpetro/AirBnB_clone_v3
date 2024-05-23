@@ -139,18 +139,19 @@ No known bugs at this time.
 
 ## Authors
 ### v1
-Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro)
-Wandile Maseko - [Github](https://github.com/jhuang10123)
+Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro) [Instagram](https://www.instagram.com/shaunpetro)
+
+Wandile Maseko - [Github](https://github.com/jhuang10123) [X/Twitter](https://x.com/MasekoZabas)
 
 ### v2 first part
-Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro)
+Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro) [Instagram](https://www.instagram.com/shaunpetro)
 ### v2 second Part
-Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro)
+Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro) [Instagram](https://www.instagram.com/shaunpetro)
 ### v2 third
 Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro)
 ### v3
-Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro)
-BONIFACE ONOYIMA - [Github](https://github.com/jzamora5) / [X/Twitter](https://x.com/ )  
+Petro Malamule - [Github](https://github.com/shaunpetro) / [X/Twitter](https://x.com/shaun_mcpetro) [Instagram](https://www.instagram.com/shaunpetro)
+Boniface Onoyima - [Github](https://github.com/) / [X/Twitter](https://x.com/ )  
 
 
 ## License
