@@ -1,4 +1,5 @@
-ndex """
+#!/usr/bin/python3
+""" Index """
 from models.amenity import Amenity
 from models.city import City
 from models.place import Place
@@ -27,4 +28,3 @@ def number_objects():
         num_objs[names[i]] = storage.count(classes[i])
 
     return jsonify(num_objs)
-
