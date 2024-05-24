@@ -1,5 +1,5 @@
-
-bjects that handle all default RestFul API actions for Reviews """
+#!/usr/bin/python3
+""" objects that handle all default RestFul API actions for Reviews """
 from models.review import Review
 from models.place import Place
 from models.user import User
@@ -113,4 +113,3 @@ def put_review(review_id):
             setattr(review, key, value)
     storage.save()
     return make_response(jsonify(review.to_dict()), 200)
-
