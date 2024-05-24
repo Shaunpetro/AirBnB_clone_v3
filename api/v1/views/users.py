@@ -1,5 +1,5 @@
-
-bjects that handle all default RestFul API actions for Users """
+#!/usr/bin/python3
+""" objects that handle all default RestFul API actions for Users """
 from models.user import User
 from models import storage
 from api.v1.views import app_views
@@ -93,4 +93,3 @@ def put_user(user_id):
             setattr(user, key, value)
     storage.save()
     return make_response(jsonify(user.to_dict()), 200)
-
