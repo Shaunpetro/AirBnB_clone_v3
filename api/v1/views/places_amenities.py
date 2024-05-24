@@ -1,5 +1,5 @@
-
-bjects that handle all default RestFul API actions for Place - Amenity """
+#!/usr/bin/python3
+""" objects that handle all default RestFul API actions for Place - Amenity """
 from models.place import Place
 from models.amenity import Amenity
 from models import storage
@@ -93,4 +93,3 @@ def post_place_amenity(place_id, amenity_id):
 
     storage.save()
     return make_response(jsonify(amenity.to_dict()), 201)
-
