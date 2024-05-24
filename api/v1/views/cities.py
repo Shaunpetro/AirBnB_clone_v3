@@ -1,5 +1,5 @@
-
-bjects that handles all default RestFul API actions for cities """
+#!/usr/bin/python3
+""" objects that handles all default RestFul API actions for cities """
 from models.city import City
 from models.state import State
 from models import storage
@@ -97,4 +97,3 @@ def put_city(city_id):
             setattr(city, key, value)
     storage.save()
     return make_response(jsonify(city.to_dict()), 200)
-
