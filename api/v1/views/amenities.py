@@ -1,5 +1,5 @@
-
-bjects that handles all default RestFul API actions for Amenities"""
+#!/usr/bin/python3
+""" objects that handles all default RestFul API actions for Amenities"""
 from models.amenity import Amenity
 from models import storage
 from api.v1.views import app_views
@@ -92,4 +92,3 @@ def put_amenity(amenity_id):
             setattr(amenity, key, value)
     storage.save()
     return make_response(jsonify(amenity.to_dict()), 200)
-
