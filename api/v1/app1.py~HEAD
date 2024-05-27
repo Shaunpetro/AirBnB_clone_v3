@@ -30,10 +30,6 @@ def not_found(error):
     """
     return make_response(jsonify({'error': "Not found"}), 404)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/petro
 app.config['SWAGGER'] = {
     'title': 'AirBnB clone Restful API',
     'uiversion': 3
