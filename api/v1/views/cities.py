@@ -60,7 +60,6 @@ def create_city(state_id):
     storage.new(new_city)
     storage.save()
     return jsonify(new_city.to_dict()), 201
-
 @app_views.route("/cities/<city_id>", methods=["PUT"], strict_slashes=False)
 def update_city(city_id):
     """
@@ -72,8 +71,11 @@ def update_city(city_id):
     city_json = request.get_json(silent=True)
     if city_json is None:
         abort(400, description="Not a JSON")
+    
+    # Exclude specified keys from the update process
+    keys_to_ignore = ["id", "state_id", "created_at", "updated_at"]
     for key, value in city_json.items():
-        if key not in ["id", "state_id", "created_at", "updated_at"]:
+        if key not in keys_to_ignore:
             setattr(city, key, value)
     storage.save()
     return jsonify(city.to_dict()), 200
